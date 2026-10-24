@@ -1,0 +1,72 @@
+
+/* Selector elemen dan format warna nama */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    color: #334155;
+    line-height: 1.6;
+}
+
+/* Selector ID dan warna HEX */
+#nama {
+    color: #1e3a8a;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Selector class dan warna RGB */
+.jurusan {
+    color: rgb(37, 99, 235);
+    text-align: center;
+    font-style: italic;
+}
+
+/* Selector grup */
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
+
+/* Selector turunan (descendant) */
+.kartu-profil p {
+    margin-bottom: 16px;
+}
+
+/* Box model kartu utama */
+.kartu-profil {
+    width: 360px;
+    margin: 40px auto;
+    padding: 24px;
+    border: 2px solid #cbd5e1;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* Tampilan daftar keahlian */
+.label {
+    display: inline-block;
+    margin: 4px;
+    padding: 6px 12px;
+    background-color: #dbeafe;
+    border-radius: 6px;
+    color: #1e40af;
+}
+
+/* Tombol menggunakan inline-block */
+.tombol {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* Warna teks tambahan */
+.hobi {
+    color: #64748b;
+    font-size: 14px;
+}
+
+
